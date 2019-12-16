@@ -1,9 +1,68 @@
 body {
-    background-color: rgb(204, 243, 248);
+  background: -webkit-linear-gradient(-109deg, rgb(221, 65, 15), rgb(74, 23, 224));
+  background: linear-gradient(-109deg, rgb(221, 65, 15), rgb(74, 23, 224));
+  background-image: url("https://image.freepik.com/photos-gratuite/maculee-bloc-salle-peinture_1203-5709.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom ;
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+  color: rgb(8, 8, 8);
+  width: 90%;
+  margin: auto;
+}
+header blockquote, header figcaption, footer blockquote, footer figcaption, header p, footer p{
+  color: rgb(20, 37, 1);
+  font-style: italic;
+  width: 100%;
+  font-style: oblique 60deg;
+}
+header .AG{
+  background-color: rgba(255, 218, 52, 0.521);
+}
+p, li, table {
+  color: rgb(3, 8, 54);
+  font-family: Rockwell;
+  font-size: 140%;
+  line-height: 1.5;
   }
-  p  {
-    color: rgb(83, 11, 97);
-    font-family: Rockwell;
-    font-size: 160%;
-    line-height: 1.5;
-  }
+a {
+  color: rgb(199, 57, 235);
+  font-size: 110%;
+}
+a:visited {color: rgb(102, 97, 97);}
+a:hover {color: rgb(5, 35, 209);}
+  
+blockquote {
+  color: rgb(207, 64, 83);
+  font-style: oblique 60deg;
+  font-size: 160%;
+  width: 50%;
+  margin: auto;
+  background-color: rgba(68, 66, 66, 0.425);
+  border-left:3px solid maroon ;
+  padding: 30px;
+  line-height: 80px;
+} 
+figcaption {
+  color: rgb(207, 64, 83);
+  font-style: oblique 60deg;
+  font-size: 110%;
+  margin: auto;
+  background-color: rgba(63, 61, 61, 0.425);
+  border-left:3px solid maroon ;
+  padding-left: 30px;
+}
+
+.fermier{
+  border-left:3px solid rgb(255, 218, 52) ;
+  font-style: italic;
+  margin-top: 80px; margin-bottom: 80px;
+  background-color: rgba(250, 217, 71, 0.425);
+}
+.péon{
+  border-left:3px solid rgb(255, 123, 0) ;
+  font-style: italic;
+  margin-top: 80px; margin-bottom: 80px;
+  background-color: rgba(247, 141, 81, 0.425);
+}
