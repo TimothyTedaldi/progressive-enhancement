@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom ;
   background-size: cover;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size: 120%;
   color: rgb(8, 8, 8);
   width: 90%;
@@ -19,6 +19,13 @@ header blockquote, header figcaption, footer blockquote, footer figcaption, head
 }
 header .AG{
   background-color: rgba(255, 218, 52, 0.521);
+}
+h1, h2{
+  font-family: 'Lakki Reddy', cursive;
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
 }
 p, li, table {
   color: rgb(3, 8, 54);
@@ -41,7 +48,7 @@ blockquote {
   margin: auto;
   background-color: rgba(68, 66, 66, 0.425);
   border-left:3px solid maroon ;
-  padding: 30px;
+  padding-left: 30px;
   line-height: 80px;
 } 
 figcaption {
@@ -49,8 +56,6 @@ figcaption {
   font-style: oblique 60deg;
   font-size: 110%;
   margin: auto;
-  background-color: rgba(63, 61, 61, 0.425);
-  border-left:3px solid maroon ;
   padding-left: 30px;
 }
 
@@ -65,4 +70,59 @@ figcaption {
   font-style: italic;
   margin-top: 80px; margin-bottom: 80px;
   background-color: rgba(247, 141, 81, 0.425);
+}
+.bien, .mal {
+  text-transform: uppercase;
+}
+.bien{
+  color: green;
+}
+.mal{
+  color: red;
+}
+
+tr:nth-of-type(odd){
+  background-color : grey;
+} 
+tr:nth-of-type(even){
+  background-color: white;
+}
+ul li:first-of-type{
+  background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/bien.png?token=AOAECDN7YB7IKKRUKFP2NA26AHP36");
+  padding-left: 80px;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+}
+ul li:last-of-type{
+  background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/mal.png?token=AOAECDJJRO7EZMZRA4TUJTS6AHYH2");
+  padding-left: 80px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+ol li:nth-of-type(1){
+  background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-1-18/master/Parcours/01-Prairie/4.HTML-CSS/progressive-enhancement/chat.png?token=AOAECDL6MHTJPMZ3CJUQL726AHYU2");
+  padding-left: 80px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+p:first-of-type{
+  font-weight: bold;
+}
+.ImgPorte{
+    float: right;
+}
+img{
+  float: left;
+  padding: 10px;
+}
+.notif{
+  background:rgba(255, 255, 221, 0.336);
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:200px;
+  font-weight:bold;
+  color: #333300;
+  position: fixed;
+  left:0;
+  top:0;
 }
