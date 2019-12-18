@@ -1,12 +1,12 @@
 body{
-    background: linear-gradient(59deg, rgb(141, 193, 188), rgb(94, 149, 204));  
+    background: #ffffff;  
     text-align: left;
     margin-left: 30%;
     margin-right: 30%;
     font-family: Helvetica, sans-serif; 
     font-size: 12px; 
     line-height: 15px;
-    color: rgb(232, 235, 206);
+    color: rgb(58, 58, 54);
 }
 article p{
     font-size: 14px; 
@@ -34,8 +34,8 @@ a {
     text-decoration: underline; 
 }
 article:nth-child(even){
-    background-color: rgb(92, 91, 91);
+    background-color: rgba(179, 177, 112, 0.26);
 }
 article:nth-child(odd){
-    background-color: rgb(105, 146, 221);
+    background-color: rgba(0, 89, 255, 0.349);
 }
