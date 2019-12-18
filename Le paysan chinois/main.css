@@ -116,7 +116,7 @@ img{
   padding: 10px;
 }
 .notif{
-  background:rgba(255, 255, 221, 0.336);
+  background:rgba(255, 255, 221, 0.425);
   padding:.5rem 1rem;
   border:3px solid #DDDDCC;
   width:200px;
@@ -126,3 +126,4 @@ img{
   left:0;
   top:0;
 }
+ 
